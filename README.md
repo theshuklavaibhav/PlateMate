@@ -1,16 +1,37 @@
-# myapp
+# 🍽️ PlateMate – A Food Donation App
 
-A new Flutter project.
+PlateMate is a Flutter-based food donation platform built for the **Google Solution Challenge**. It aims to reduce food waste and hunger by connecting individuals and organizations who have surplus food with those in need.
 
-## Getting Started
+This project was proudly developed using **Google Project IDX**, with powerful AI integration using the **Gemini API** for enhanced user interaction.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📍 **Location-based food sharing**
+- 🤝 **User-friendly donation request and fulfillment**
+- 🔔 **Real-time notifications (Firebase)**
+- 🧠 **AI Assistant powered by Gemini API**
+- 📦 **Dashboard for managing donations**
+- 📸 **Upload photos of available food**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+
+| Tech         | Purpose                      |
+|--------------|------------------------------|
+| **Flutter**  | Cross-platform mobile app    |
+| **Firebase** | Backend, auth & real-time DB |
+| **Gemini API** | Smart chat assistant         |
+| **Project IDX** | Cloud development environment |
+| **Google Maps API** | Location services       |
+
+---
+
+## 🔗 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/theshuklavaibhav/PlateMate.git
+   cd PlateMate

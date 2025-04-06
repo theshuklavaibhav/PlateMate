@@ -1252,26 +1252,25 @@ class DonationProvider extends ChangeNotifier {
       image: null, // Will use network image
     ),
     FoodDonation(
-      foodName: "Fresh Bread Loaf",
+      foodName: "Chapati",
       expiryDate: DateFormat(
         'yyyy-MM-dd',
       ).format(DateTime.now().add(const Duration(days: 1))),
-      quantity: "1 loaf",
-      description: "Sourdough bread, baked this morning.",
-      bestBeforeTime: "10:00 PM",
-      category: FoodCategory.vegan,
-      image: null, // Will use network image
+quantity: "4 chapatis",
+description: "Fresh homemade chapatis with ghee, prepared this evening.",
+bestBeforeTime: "9:30 PM",
+category: FoodCategory.veg,
+image: null,
+ // Will use network image
     ),
     FoodDonation(
-      foodName: "Vegetable Curry",
-      expiryDate: DateFormat(
-        'yyyy-MM-dd',
-      ).format(DateTime.now().add(const Duration(days: 3))),
-      quantity: "Approx 1 litre",
-      description: "Mild coconut-based vegetable curry with rice.",
-      bestBeforeTime: "9:00 PM",
-      category: FoodCategory.veg,
-      image: null, // Will use network image
+foodName: "Paneer Butter Masala",
+expiryDate: DateFormat('yyyy-MM-dd').format(DateTime.now().add(const Duration(days: 2))),
+quantity: "Approx 500 ml",
+description: "Creamy tomato-based paneer curry, mildly spiced and rich in flavor.",
+bestBeforeTime: "8:30 PM",
+category: FoodCategory.veg,
+image: null, // Will use network image
     ),
   ];
 
